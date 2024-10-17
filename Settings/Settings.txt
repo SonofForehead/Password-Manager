@@ -1,1 +1,4 @@
-﻿
+﻿Code Passwords: True
+Code Emails: False
+Code Username: False
+Debug Build: False
