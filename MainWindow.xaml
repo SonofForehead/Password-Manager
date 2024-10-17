@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Password_Manager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Height="450" Width="800" Background="#FF02021A">
+    <Grid Height="450" Width="800" Background="Black">
+        <StackPanel>
+            <Button Name="btnPassword" Content="Main Passwords" Background="Black" Height="64" Width="128" Margin="10,10,662,376"
+                    Click="btnPassword_Click" BorderBrush="#FF00FF22" Foreground="#FF00FF22" FontSize="16" FontWeight="Bold"/>
+        </StackPanel>
     </Grid>
 </Window>
